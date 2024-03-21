@@ -1,2 +1,5 @@
-package mehedi;public class BigO {
+package mehedi;
+
+public class BigO {
+    
 }

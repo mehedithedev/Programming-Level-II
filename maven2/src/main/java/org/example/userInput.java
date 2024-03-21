@@ -40,20 +40,14 @@ public class userInput {
         System.out.println("Please enter 'a' for acsending or 'd' for descending : ");
 
         char c = sc.next().charAt(0);
-
-
         if (c == 'd') {
 
             loop1 = start;
 
 
             do {
-
-
                 System.out.println(tableno + " * " + (loop1) + " = " + tableno * (loop1));
-
                 loop1--;
-
             }
 
             while (loop1 > stop - 1);
@@ -64,7 +58,6 @@ public class userInput {
 
             do {
                 System.out.println(tableno + " * " + (loop1) + " = " + tableno * (loop1));
-
                 loop1++;
             } while (loop1 < start + 1);
 
